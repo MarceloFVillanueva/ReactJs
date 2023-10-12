@@ -86,5 +86,8 @@ Se crea una carpeta contenedora de componentes y ahí se vuelcan los archivos qu
 
 
 Dato extra (snipet):
-    - rafce / crea un componente dentro del archivo .jsx para importar (borramos el import React)
-    - rafc  / crea un componente dentro del archivo .jsx que no lo importe
+    - rafce / crea un componente tipo const dentro del archivo .jsx para importar (borramos el import React)
+    - rafc  / crea un componente tipo const dentro del archivo .jsx que no lo importe
+    - rfc   / crea un componente tipo func dentro del archivo .jsx que no lo importe
+    - rfce  / crea un componente tipo func dentro del archivo .jsx para importar
+    - windows + .   / abre los emojis
