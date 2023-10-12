@@ -76,3 +76,15 @@ Se ejecuta npm run buil para que nos aparezca la carpeta:
         vite.svg
 
 Se ejecuta ese comando para tomar todos los archivos modificados y los convierte en estáticos para que los pueda leer el navegador
+
+Clase 04 - Creamos componentes
+
+Se crea una carpeta contenedora de componentes y ahí se vuelcan los archivos que necesitemos
+    - components
+        - NavBar            / No es necesario escribirlos con mayúsculas pero así podemos identificar que son componentes
+            NavBar.jsx
+
+
+Dato extra (snipet):
+    - rafce / crea un componente dentro del archivo .jsx para importar (borramos el import React)
+    - rafc  / crea un componente dentro del archivo .jsx que no lo importe
