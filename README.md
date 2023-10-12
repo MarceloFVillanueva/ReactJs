@@ -45,3 +45,34 @@ para poder usarlo:
     $ npm run dev
 
 Listo, ya podemos trabajar en nuestro proyecto
+
+La carpeta que se crea tiene:
+    - node_modules          / Librerías instaladas
+    - public                / Carpeta pública para acceder desde cualquier lado a través del navegador
+        vite.svg            /
+    - src                   / Es dónde está y vamos a programar y crear todos nuestros archivos de JS
+        - assets            / Acá se colocan las imágenes
+            react.svg       /
+        App.css             / Estilos para App
+        App.jsx             / Archivo principa, a partir de acá se van a crear los componentes hijos
+        index.css           / Estilo de nuestra página Web
+        main.jsx            /
+    .eslintrc.cjs           /
+    .gitignore              / Todo lo que se va a ignorar a la hora de subir al repositorio
+    index.html              /
+    package-lock.json       / Muestra la dirección de dónde están instalados los módulos de node
+    package.json            / Datos de la aplicación
+    README.md               / Archivo aclarativo
+    vite.config.js          / Archivo de configuración de Vite - uso interno para correr la aplicación
+
+
+Se ejecuta npm run buil para que nos aparezca la carpeta:
+    - dist
+        - assets
+            index-.js
+            index-.css
+            react-.svg
+        index.html
+        vite.svg
+
+Se ejecuta ese comando para tomar todos los archivos modificados y los convierte en estáticos para que los pueda leer el navegador
