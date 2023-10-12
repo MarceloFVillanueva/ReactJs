@@ -1,7 +1,9 @@
+import "./ItemListContainer.css"
+
 function ItemListContainer({greeting = 'Saludo por defecto'}) {
   return (
     <div>
-        {greeting}
+        <p className="greeting">{greeting}</p>
     </div>
   )
 }

@@ -1,3 +1,5 @@
+import "./Titulo.css"
+
 const Titulo = ({titulo,subTitulo}) =>{
     return (
         <div>
