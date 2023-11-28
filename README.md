@@ -91,3 +91,8 @@ Dato extra (snipet):
     - rfc   / crea un componente tipo func dentro del archivo .jsx que no lo importe
     - rfce  / crea un componente tipo func dentro del archivo .jsx para importar
     - windows + .   / abre los emojis
+
+Clase 08 - Hooks / Children y Patrones
+
+- Los Hooks se detectan como useNombre
+- 
